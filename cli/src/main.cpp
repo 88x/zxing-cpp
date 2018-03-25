@@ -139,7 +139,7 @@ int read_image(Ref<LuminanceSource> source, bool hybrid, string expected) {
       if (verbose) {
         cout << "    ";
       }
-      cout << results[i]->getText()->getText() << endl;
+      cout << "OK:" << results[i]->getText()->getText() << endl;
     }
   }
 
